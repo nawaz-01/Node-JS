@@ -5,7 +5,10 @@ const replaceTemplate = require('./modules/replaceTemplate');
 
 
 // ///////////////////////
+
 // //Blocking, synchronous way
+
+
 // const textIn = fs.readFileSync('./txt/input.txt', 'utf-8');
 // console.log(textIn);
 
@@ -14,7 +17,10 @@ const replaceTemplate = require('./modules/replaceTemplate');
 // console.log('File written!'); 
 
 // //////////////////////////
+
 // //Non-blocking, asynchronous way
+
+
 // fs.readFile('./txt/start.txt','utf-8',(err, data1) =>  {
 //     if(err) return console.log('ERROR 🤖');
 
